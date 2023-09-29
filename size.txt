@@ -1,0 +1,13 @@
+(min-width:860px) and (max-width: 1024px) 
+
+
+
+(min-width:640px) and (max-width: 860px)
+
+
+
+(min-width:420px) and (max-width: 640px)
+
+
+
+(min-width:200px) and (max-width: 420px) 

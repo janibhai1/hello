@@ -1,0 +1,596 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url( assets/GeneralSans-Medium.otf);
+ 
+
+  }
+  
+  
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "myFirstFont";
+scroll-behavior: smooth;
+
+}
+
+
+:root{
+  --bg-color:linear-gradient(63deg, rgba(50, 94, 181, 0.998) 0%, rgba(61,25,70,0.989233193277311) 84%);
+  --color-1: rgb(230, 228, 103);
+  --color-2: rgb(221, 250, 248);
+  --heading: 2.7vw;
+  --para:  1vw;
+}
+
+html,body{
+  background: var(--bg-color);
+
+
+}
+
+#noise{
+  position: fixed;
+  overflow: hidden;
+  display: block;
+  inset: 0;
+  opacity: .20;
+
+  /* background-image: url(https://i.gifer.com/2Von.gif); */
+  background-blend-mode: soft-light;
+  
+  background-image: url(https://ab-biotics.com/probiotico-ultra/wp-content/uploads/grainy-texture.gif);
+  background-repeat: repeat;
+  background-size: 200px;
+  
+  
+  z-index: 1;
+  pointer-events: none;
+  will-change: auto;
+}
+
+
+
+
+
+  header{
+    position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 120px;
+   border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.9px);
+-webkit-backdrop-filter: blur(2.9px);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+  
+
+
+
+
+section{
+  min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+    
+    font-size: 70px;
+    color: aliceblue;
+    overflow: hidden;
+  }
+  
+  section:nth-child(odd){
+    /* background: #000; */
+  
+  }
+
+
+
+
+  /* * navbar css start*/  
+  
+  
+  
+  #check{
+    display: none;
+  }
+  
+
+  .icon{
+    position: absolute;
+    font-size: 2rem;
+    color: var(--color-2);
+    cursor: pointer;
+    display: none;
+    right: 5%;
+  
+  }
+    
+  header{
+    position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 120px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 70px;
+   z-index: 99;
+   
+   
+  }
+  
+  header::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(100.1px);
+    z-index: -1;
+  }
+  
+  .logo img{
+    width: 90px;
+  margin-top: 10px;
+    
+  }
+  
+  nav a{
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: var(--color-2);
+    margin-left: 35px;
+    transition: all ease .3s;
+    font-weight: 500;
+    
+  }
+  
+  nav a:hover {
+  color:var(--color-1)
+  }
+  
+/* nav end  */
+
+/* home start */
+
+/*.................. section 1 home................... */
+
+#e12weg1 h1{
+  font-size: var(--heading);
+  color: var(--color-2);
+  line-height: 4rem;
+
+
+}
+#e12weg1 span{
+
+  color: var(--color-1)
+
+
+}
+#e12weg1 p{
+  font-size: var(--para);
+  width: 45vw;
+  color: var(--color-2);
+  margin-top: 10px;
+  border-top: var(--color-1) solid 1px;
+  
+  padding-top: 1.1vh;
+
+
+}
+
+/*.................. whatsapp home................... */
+#ahr564{
+  margin-top: 4vh;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  border-radius: 10px;
+  /* justify-content: center; */
+
+
+}
+
+#ahr456{
+  display: flex;
+  justify-content: center;
+width: 15vw;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.4px);
+-webkit-backdrop-filter: blur(3.4px);
+padding: 10px;
+
+
+
+}
+
+#ahr456 a{
+  text-decoration: none;
+  font-size: 2vw;
+  color: #ffffffa2;
+
+  font-weight: 900;}
+
+
+
+
+/*.................. section 2 home................... */
+
+#af5475ae img{
+  width: 30rem;
+  border-radius: 50px;
+
+}
+#home{
+
+  justify-content: space-evenly;
+  
+}
+
+/* about section start  */
+
+/*.................. section 1 about................... */
+
+
+
+#agf87 h1{
+  font-size: var(--heading);
+  text-transform: uppercase;
+  color: var(--color-1);
+  /* text-align: center; */
+}
+  
+#agf87 p{
+  font-size: var(--para);
+  width: 50vw;
+  /* text-align: center; */
+
+  color: var(--color-2);
+}
+  
+
+#hlfs445 img{
+width:20rem;
+border-radius: 50%; 
+}
+
+#about-us{
+  justify-content: space-evenly;
+  
+} 
+
+#agf87 h1{
+  margin-top: 3rem;
+  
+}
+/* About end  */
+
+/* why choose us start  */
+
+
+#why-choose-us{
+  flex-direction: column;
+  align-items: center;
+}
+
+#af12af{
+  font-size: 5rem;
+}
+
+#af12af span{
+  color: var(--color-1);
+
+}
+
+#kjsg55{
+  display: flex;
+  gap: 3rem;
+}
+
+
+
+#kjsg55 h1{
+ font-size: 50px;
+ text-align: center;
+ color: var(--color-1);
+ text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+#fg56s img{
+  width: 14rem;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+display: block;
+}
+
+#fg56s p{
+  font-size: 1rem;
+  width: 24rem;
+  text-align: center;
+}
+
+
+
+#as465 img{
+  width: 14rem;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+display: block;
+}
+
+#as465 p{
+  font-size: 1rem;
+  width: 24rem;
+  text-align: center;
+}
+
+
+#r654sg img{
+  width: 14rem;
+  border-radius: 50%;
+  margin-left: auto;
+    margin-right: auto;
+display: block;
+}
+
+#r654sg p{
+  font-size: 1rem;
+  width: 24rem;
+  text-align: center;
+}
+
+
+
+/* services  */
+
+
+
+#services{
+  flex-direction: column;
+}
+
+#hssh4 {
+  font-size: 8vw;
+  text-align: center;
+color: var(--color-1);
+}
+
+
+
+
+.hero-manage-property-section-gallery h1 {
+	font-size: 2.2rem;
+  /* font-weight: bolder; */
+    color: var(--color-1);
+    text-align: center;
+}
+
+.hero-manage-property-section-gallery p {
+  color: var(--color-2);
+	line-height:1.4;
+  font-size: 01rem;
+  text-align: center;
+}
+
+
+.hero-manage-property-section-gallery {
+  display:flex;	
+  /* background: #618264; */
+  justify-content: space-between;
+
+  /* outline:1px solid red; */
+}
+
+.left {
+	width:40%;
+  overflow: hidden;
+}
+
+.right {
+	height:100vh;
+	/* outline:1px solid purple; */
+	width:50%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+.desktopContent {
+	margin:auto;
+	width:80%;
+}
+
+.hero-section-text {
+	min-height:100vh;
+	/* outline:1px solid green; */
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+    padding: 15px;
+}
+
+
+.photos-con {
+	width:40vw;
+	height:40vw;
+	border-radius:50%;
+	position:relative;
+	overflow:hidden;
+
+
+}
+
+.hero-manage-section-photos {
+	position:absolute;
+	width:100%;
+	height:100%;
+  z-index: 1;
+
+}
+
+
+
+
+.property-management-services {
+	background-image: url(assets/Property-management/Property\ Management\ Services.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+.maintenance-and-repairs {
+	background-image: url(assets/Property-management/Maintenance\ and\ Repairs.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.tenant-relations {
+	background-image: url(assets/Property-management/Tenant\ Relations.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.property-marketing{
+	background-image: url(assets/Property-management/Property\ Marketing.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.legal-compliance{
+  background-image: url(assets/Property-management/Legal\ Compliance.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.rent-collection-and-financial-management{
+  background-image: url(assets/Property-management/Rent\ Collection\ and\ Financial\ Management.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
+/* Property  */
+
+
+
+.security-services{
+  background-image: url(assets/Property-facilities/Security\ Services.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
+.cleaning-and-janitorial-services{
+  background-image: url(assets/Property-facilities/Cleaning\ and\ Janitorial\ Services.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
+.landscaping-and-grounds-maintenance{
+  background-image: url(assets/Property-facilities/Landscaping\ and\ Grounds\ Maintenance.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
+.common-area-management{
+  background-image: url(assets/Property-facilities/Common\ Area\ Management.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
+.facility-upgrades-and-renovations{
+  background-image: url(assets/Property-facilities/Facility\ Upgrades\ and\ Renovations.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
+.utilities-management{
+  background-image: url(assets/Property-facilities/Utilities\ Management.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
+/* DGJgjD */
+
+#services #af456f{
+  display: none;
+}
+
+#mob-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+
+#h5fd4{
+  color: var(--color-1);
+
+}
+
+#mob-con img{
+  width: 18rem;
+  border-radius: 50%;
+  
+}
+
+#af456f{
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#af456f p{
+  text-align: center;
+  color: var(--color-2);
+ 
+
+
+}
+
+#af456f h1{
+  text-align: center;
+  color: var(--color-1);
+  text-transform: uppercase;
+
+}
+
+
+
+
+
+/* defines styles for screens up to 599px wide */
+
+
