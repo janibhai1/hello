@@ -125,7 +125,7 @@
     font-size: 4.5vw;
     line-height: 2rem;
     text-align: center;
-    width: 900vw;
+    /* width: 900vw; */
 
   }
   #home p{
@@ -169,7 +169,7 @@ align-items: center;
     font-size: 5vw;
     line-height: 2rem;
     text-align: center;
-    width: 900vw;
+    /* width: 90vw; */
 
   }
   #home p{
@@ -217,7 +217,7 @@ align-items: center;
     font-size: 5vw;
     line-height: 1rem;
     text-align: center;
-    width: 900vw;
+    /* width: 90vw; */
 
   }
   #home p{
